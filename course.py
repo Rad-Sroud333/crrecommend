@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import nltk
+#import nltk
 #nltk.download('stopwords')
 from nltk import word_tokenize
 import string
