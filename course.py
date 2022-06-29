@@ -94,7 +94,7 @@ def recommend1(course_name):
             inp=arr_user_input_movie(course_name)                                                                                                                                                                   
             f = 100
             u = AnnoyIndex(f, 'angular')
-            u.load(r"C:\Users\pc1\Desktop\deployment\course recommend\m1.ann")
+            u.load(m1.ann")
             re=u.get_nns_by_vector(inp,n=5,search_k=1000,include_distances=True)
             l=[]
             for i in re[0]:
